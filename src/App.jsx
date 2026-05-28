@@ -1,8 +1,8 @@
 import profile from "./assets/profile.png";
 import { useState } from "react";
+import Particles from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 import { Typewriter } from "react-simple-typewriter";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import { motion } from "framer-motion";
 import { FaBars } from "react-icons/fa";
 import axios from "axios";
@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
 };
   const [menuOpen, setMenuOpen] = useState(false);
 const particlesInit = async (main) => {
-  await loadFull(main);
+  await loadSlim(main);
 };
   const skills = [
     { icon: <FaAws />, name: "AWS" },
