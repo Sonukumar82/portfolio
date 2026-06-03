@@ -137,7 +137,7 @@ const particlesInit = async (main) => {
   <div className="flex justify-between items-center px-10 py-5">
 
     <h1 className="text-2xl font-bold text-cyan-400">
-      Sonu.DevOps
+      Sonu.dev
     </h1>
 
     <ul className="hidden md:flex gap-8 text-gray-300">
@@ -290,8 +290,9 @@ const particlesInit = async (main) => {
   <div className="max-w-5xl mx-auto bg-[#111827] border border-gray-800 rounded-3xl p-10 text-gray-300 leading-8 text-lg">
 
     <p>
-      DevOps Engineer with 3.7 years of experience in building and managing
-      CI/CD pipelines, Kubernetes infrastructure, and AWS cloud solutions.
+      DevOps Engineer with 3.7 years of experience in AWS, Azure, GCP, Kubernetes, Terraform, Jenkins, Argo CD, GitOps and CI/CD automation.
+
+Experienced in cloud infrastructure management, Infrastructure as Code (IaC), deployment automation, monitoring, production support and cloud-native application deployments.
     </p>
 
     <p className="mt-6">
