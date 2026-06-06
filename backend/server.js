@@ -121,7 +121,8 @@ ${message}
 
 /* Server */
 
-const PORT = 30001;
+/* Server */
+const PORT = process.env.PORT || 30002;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

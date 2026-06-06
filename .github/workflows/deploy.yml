@@ -61,6 +61,7 @@ jobs:
               ${{ secrets.DOCKER_USERNAME }}/portfolio-frontend:latest
 
             docker run -d \
-              --name backend \
-              -p 30002:30001 \
-              ${{ secrets.DOCKER_USERNAME }}/portfolio-backend:latest
+            --name backend \
+            -e PORT=30002 \
+            -p 30002:30002 \
+            ${{ secrets.DOCKER_USERNAME }}/portfolio-backend:latest
