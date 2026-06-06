@@ -8,6 +8,7 @@ import { FaBars } from "react-icons/fa";
 import axios from "axios";
 import {
   FaAws,
+  FaKubernets,
   FaDocker,
   FaReact,
   FaGithub,
