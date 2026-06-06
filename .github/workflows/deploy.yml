@@ -57,7 +57,7 @@ jobs:
 
             docker run -d \
               --name frontend \
-              -p 80:5173 \
+              -p 5173:5173 \
               ${{ secrets.DOCKER_USERNAME }}/portfolio-frontend:latest
 
             docker run -d \
