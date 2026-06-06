@@ -12,6 +12,6 @@ services:
     build: ./backend
     container_name: portfolio-backend
     ports:
-      - "30001:30001"
+      - "30002:30002"
     env_file:
       - ./backend/.env

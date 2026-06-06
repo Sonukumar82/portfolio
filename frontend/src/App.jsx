@@ -53,7 +53,7 @@ const handleSubmit = async (e) => {
   try {
       setLoading(true);
     await axios.post(
-      "http://localhost:30001/contact",
+      "http://localhost:30002/contact",
       formData
     );
 
