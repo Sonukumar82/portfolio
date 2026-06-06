@@ -62,5 +62,5 @@ jobs:
 
             docker run -d \
               --name backend \
-              -p 30002:30002 \
+              -p 30002:30001 \
               ${{ secrets.DOCKER_USERNAME }}/portfolio-backend:latest
