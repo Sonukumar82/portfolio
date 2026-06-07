@@ -631,7 +631,56 @@ enhance overall DevOps processes.</li>
 
 </button>
   </form>
+  <hr
+  style={{
+    margin: "40px 0 20px",
+    border: "1px dashed #00d4ff",
+  }}
+/>
 
+<div
+  style={{
+    textAlign: "center",
+    color: "white",
+    marginBottom: "30px",
+  }}
+>
+  <p>Email: sonu98kumar49.sk@gmail.com</p>
+  <p>Contact: +91 8294678198</p>
+
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      gap: "20px",
+      marginTop: "15px",
+    }}
+  >
+    <a
+      href="https://www.linkedin.com/in/sonu-kumar-/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+        alt="LinkedIn"
+        width="30"
+      />
+    </a>
+
+    <a
+      href="https://github.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        alt="GitHub"
+        width="30"
+      />
+    </a>
+  </div>
+</div>
 </section>
     </div>
     </>
