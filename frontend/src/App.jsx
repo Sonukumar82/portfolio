@@ -631,56 +631,51 @@ enhance overall DevOps processes.</li>
 
 </button>
   </form>
-  <hr
+    <div
   style={{
-    margin: "40px 0 20px",
-    border: "1px dashed #00d4ff",
-  }}
-/>
-
-<div
-  style={{
-    textAlign: "center",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "15px",
+    flexWrap: "wrap",
+    marginTop: "25px",
     color: "white",
-    marginBottom: "30px",
+    fontSize: "16px",
   }}
 >
-  <p>Email: sonu98kumar49.sk@gmail.com</p>
-  <p>Contact: +91 8294678198</p>
-
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      gap: "20px",
-      marginTop: "15px",
-    }}
+  <a
+    href="https://www.linkedin.com/in/sonu-kumar-/"
+    target="_blank"
+    rel="noopener noreferrer"
   >
-    <a
-      href="https://www.linkedin.com/in/sonu-kumar-/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-        alt="LinkedIn"
-        width="30"
-      />
-    </a>
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+      alt="LinkedIn"
+      width="28"
+    />
+  </a>
 
-    <a
-      href="https://github.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-        alt="GitHub"
-        width="30"
-      />
-    </a>
-  </div>
-</div>
+  <a
+    href="https://github.com/YOUR_GITHUB_USERNAME"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      alt="GitHub"
+      width="28"
+      style={{ filter: "invert(1)" }}
+    />
+  </a>
+
+  <span><strong>Sonu Kumar</strong></span>
+
+  <span>📧 sonu98kumar49.sk@gmail.com</span>
+
+  <span>📞 +91 8294678198</span>
+</div>  
+
+
 </section>
     </div>
     </>
