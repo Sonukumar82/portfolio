@@ -137,7 +137,7 @@ const particlesInit = async (main) => {
   <div className="flex justify-between items-center px-10 py-5">
 
     <h1 className="text-2xl font-bold text-cyan-400">
-      Sonu.dev
+      Sonu.DevOps
     </h1>
 
     <ul className="hidden md:flex gap-8 text-gray-300">
