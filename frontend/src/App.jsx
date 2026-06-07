@@ -358,14 +358,41 @@ Experienced in cloud infrastructure management, Infrastructure as Code (IaC), de
       </p>
 
       <ul className="mt-5 space-y-3 text-gray-300">
-        <li>• Built CI/CD pipelines using Jenkins and Argo CD</li>
-        <li>• Managed Kubernetes clusters and cloud-native apps</li>
-        <li>• Worked on AWS services like Lambda, EC2, DynamoDB</li>
-        <li>• Automated infrastructure using Terraform</li>
+        <li>• Designed and Managed CI/CD pipelines using Jenkins, Argo CD, and GitOps methodologies
+to enhance deployment efficiency and reliability.</li>
+        <li>• Streamlining infrastructure management processes through automation scripting, minimizing
+manual intervention and reducing operational overhead.</li>
+        <li>• Administering Kubernetes deployments to ensure high availability and performance of
+cloud-native applications, while implementing best practices for container orchestration.</li>
+        <li>•Transitioning CI/CD workflow from traditional Jenkins setups to modern Argo CD frameworks,
+thereby improving deployment speed and reducing errors.</li>
+        <li>• Designing and deploying AWS solutions, including Lambda, EC2, and DynamoDB, while
+integrating comprehensive monitoring solutions via New Relic and CloudWatch for proactive
+performance management.</li>
+        <li>• Enhancing database performance by optimizing MySQL queries and developing automation
+scripts that facilitate routine maintenance tasks.</li>
       </ul>
 
     </div>
+<div className="bg-[#111827] border border-gray-800 rounded-3xl p-8 hover:border-cyan-400 transition">
 
+      <h3 className="text-2xl font-bold">
+        Highlights:
+      </h3>
+
+    
+
+      <ul className="mt-5 space-y-3 text-gray-300">
+        <li>• Leveraged GitHub and Terraform for effective version control and Infrastructure as Code (IaC)
+practices, ensuring consistent and repeatable deployments.</li>
+        <li>• Successfully reduced deployment times through the implementation of automated CI/CD
+workflow, leading to increased productivity & faster time-to-market for applications.</li>
+        <li>• Played a pivotal role in enhancing system reliability by migrating critical applications to a
+cloud-native architecture, resulting in improvement in uptime.</li>
+        
+      </ul>
+
+    </div>
     <div className="bg-[#111827] border border-gray-800 rounded-3xl p-8 hover:border-cyan-400 transition">
 
       <h3 className="text-2xl font-bold">
@@ -377,10 +404,16 @@ Experienced in cloud infrastructure management, Infrastructure as Code (IaC), de
       </p>
 
       <ul className="mt-5 space-y-3 text-gray-300">
-        <li>• Worked on DevOps and Java Full Stack technologies</li>
-        <li>• Developed CI/CD pipelines for GCP deployments</li>
-        <li>• Managed GitHub repositories and AWS infrastructure</li>
-        <li>• Worked with React, Microservices, and MySQL</li>
+        <li>• Engaged in comprehensive training on DevOps engineering principles and Java full stack
+development, focusing on technologies such as React, Microservices, and MySQL.</li>
+        <li>• Developed and maintained CI/CD pipelines for GCP deployments, ensured robust testing and
+integration processes that align with industry standards.</li>
+        <li>• Assisted in scaling AWS infrastructure, managed essential tasks such as password updates
+and GitHub repository management to ensure seamless operations.</li>
+        <li>• Contributed to the development of Java full stack applications, employed React and
+Microservices architecture to deliver high-quality software solutions.</li>
+        <li>• Actively resolved Jira tickets, collaborated with cross-functional teams to address issues and
+enhance overall DevOps processes.</li>
       </ul>
 
     </div>
