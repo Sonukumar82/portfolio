@@ -53,9 +53,9 @@ const handleSubmit = async (e) => {
   try {
       setLoading(true);
     await axios.post(
-      "http://localhost:30002/contact",
-      formData
-    );
+  "/api/contact",
+  formData
+);
 
     alert("Message Sent Successfully 🚀");
     setLoading(false);
