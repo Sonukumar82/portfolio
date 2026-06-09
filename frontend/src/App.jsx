@@ -267,7 +267,7 @@ const particlesInit = async (main) => {
           whileHover={{ scale: 1.1 }}
           className="mt-10 px-8 py-4 bg-cyan-500 rounded-2xl text-lg font-semibold shadow-lg shadow-cyan-500/50 hover:bg-cyan-400 transition"
         >
-          Explore Projects
+          Explore Experience
         </motion.button>
         <a
   href="/Sonu_K_CV.pdf"
