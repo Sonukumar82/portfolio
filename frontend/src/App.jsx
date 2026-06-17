@@ -271,7 +271,7 @@ const particlesInit = async (main) => {
           Explore Experience
         </motion.button>
         <a
-  href="/Sonu_K_CV.pdf"
+  href="/Sonu_DevOps_resume-4.pdf"
   download
 >
   <button className="mt-5 px-8 py-4 border border-cyan-400 rounded-2xl text-lg font-semibold hover:bg-cyan-400 hover:text-black transition">
