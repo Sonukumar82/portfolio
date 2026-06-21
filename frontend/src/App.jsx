@@ -441,12 +441,12 @@ enhance overall DevOps processes.</li>
 
       <p className="text-gray-400 leading-7">
         Built automated deployment pipelines using Jenkins, Argo CD,
-        Docker, and Kubernetes with GitOps workflow.
+        Docker, Docker Hub and Kubernetes with GitOps workflow.
       </p>
 
     </div>
 
-    {/* Project 2 */}
+    {/* Project hai ye  2 */}
     <div className="bg-[#111827] border border-gray-800 rounded-3xl p-8 hover:border-cyan-400 transition hover:scale-105 duration-300">
 
       <h3 className="text-2xl font-bold mb-4">
