@@ -1,4 +1,10 @@
 import profile from "./assets/profile.png";
+import aws from "./assets/certificates/aws.png";
+import azureFund from "./assets/certificates/azure-fundamentals.png";
+import azureDev from "./assets/certificates/azure-developer.png";
+import gcp from "./assets/certificates/gcp-ace.png";
+import googleOps from "./assets/certificates/google-operations.png";
+import aiFest from "./assets/certificates/ai-skills-fest.png";
 import { useState } from "react";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -26,6 +32,33 @@ function App() {
   email: "",
   message: "",
 });
+
+const certifications = [
+  {
+    title: "AWS Certified Cloud Practitioner",
+    image: aws,
+  },
+  {
+    title: "Microsoft Azure Fundamentals",
+    image: azureFund,
+  },
+  {
+    title: "Microsoft Azure Developer Associate",
+    image: azureDev,
+  },
+  {
+    title: "Google Associate Cloud Engineer",
+    image: gcp,
+  },
+  {
+    title: "Google Cloud Operations Suite",
+    image: googleOps,
+  },
+  {
+    title: "Microsoft AI Skills Fest 2026",
+    image: aiFest,
+  },
+];
 
 const handleChange = (e) => {
 
@@ -291,7 +324,7 @@ const particlesInit = async (main) => {
   <div className="max-w-5xl mx-auto bg-[#111827] border border-gray-800 rounded-3xl p-10 text-gray-300 leading-8 text-lg">
 
     <p>
-      DevOps Engineer with 3.7 years of experience in AWS, Azure, GCP, Kubernetes, Terraform, Jenkins, Argo CD, GitOps and CI/CD automation.
+      DevOps Engineer with 4 years of experience in AWS, Azure, GCP, Kubernetes, Terraform, Jenkins, Argo CD, GitOps and CI/CD automation.
 
 Experienced in cloud infrastructure management, Infrastructure as Code (IaC), deployment automation, monitoring, production support and cloud-native application deployments.
     </p>
@@ -548,30 +581,47 @@ enhance overall DevOps processes.</li>
 
 </section>
 {/* Certifications */}
-
 <section className="px-10 py-20">
 
   <h2 className="text-4xl font-bold text-center text-cyan-400 mb-14">
     Certifications
   </h2>
 
-  <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+  <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
 
-    <div className="bg-[#111827] p-6 rounded-2xl border border-gray-800">
-      AWS Cloud Practitioner
-    </div>
+    {certifications.map((cert, index) => (
 
-    <div className="bg-[#111827] p-6 rounded-2xl border border-gray-800">
-      Microsoft Azure Fundamentals
-    </div>
+      <div
+        key={index}
+        className="bg-[#111827] rounded-2xl p-8 border border-gray-700 hover:border-cyan-400 hover:scale-105 duration-300 text-center"
+      >
 
-    <div className="bg-[#111827] p-6 rounded-2xl border border-gray-800">
-      Google Associate Cloud Engineer
-    </div>
+        <img
+          src={cert.image}
+          alt={cert.title}
+          className="h-40 mx-auto object-contain"
+        />
 
-    <div className="bg-[#111827] p-6 rounded-2xl border border-gray-800">
-      DevOps Beginner to Advanced
-    </div>
+        <h3 className="text-white text-xl font-semibold mt-6">
+          {cert.title}
+        </h3>
+
+      </div>
+
+    ))}
+
+  </div>
+
+  <div className="text-center mt-12">
+
+    <a
+      href="https://www.credly.com/users/sonu-kumar.555b6ca1"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-3 rounded-full transition duration-300"
+    >
+      Verify All Certifications on Credly →
+    </a>
 
   </div>
 
