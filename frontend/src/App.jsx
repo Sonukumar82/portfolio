@@ -33,33 +33,6 @@ function App() {
   message: "",
 });
 
-const certifications = [
-  {
-    title: "AWS Certified Cloud Practitioner",
-    image: aws,
-  },
-  {
-    title: "Microsoft Azure Fundamentals",
-    image: azureFund,
-  },
-  {
-    title: "Microsoft Azure Developer Associate",
-    image: azureDev,
-  },
-  {
-    title: "Google Associate Cloud Engineer",
-    image: gcp,
-  },
-  {
-    title: "Google Cloud Operations Suite",
-    image: googleOps,
-  },
-  {
-    title: "Microsoft AI Skills Fest 2026",
-    image: aiFest,
-  },
-];
-
 const handleChange = (e) => {
 
   setFormData({
@@ -581,6 +554,7 @@ enhance overall DevOps processes.</li>
 
 </section>
 {/* Certifications */}
+
 <section className="px-10 py-20">
 
   <h2 className="text-4xl font-bold text-center text-cyan-400 mb-14">
