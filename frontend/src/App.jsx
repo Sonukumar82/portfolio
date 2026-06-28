@@ -33,6 +33,40 @@ function App() {
   message: "",
 });
 
+const certifications = [
+
+{
+title:"AWS Certified Cloud Practitioner",
+image:aws,
+},
+
+{
+title:"Microsoft Azure Fundamentals",
+image:azureFund,
+},
+
+{
+title:"Microsoft Azure Developer Associate",
+image:azureDev,
+},
+
+{
+title:"Google Associate Cloud Engineer",
+image:gcp,
+},
+
+{
+title:"Google Cloud Operations Suite",
+image:googleOps,
+},
+
+{
+title:"Microsoft AI Skills Fest 2026",
+image:aiFest,
+},
+
+];
+
 const handleChange = (e) => {
 
   setFormData({
@@ -558,25 +592,25 @@ enhance overall DevOps processes.</li>
 <section className="px-10 py-20">
 
   <h2 className="text-4xl font-bold text-center text-cyan-400 mb-14">
-    Certifications
+    Professional Certifications
   </h2>
 
-  <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+  <div className="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
 
     {certifications.map((cert, index) => (
 
       <div
         key={index}
-        className="bg-[#111827] rounded-2xl p-8 border border-gray-700 hover:border-cyan-400 hover:scale-105 duration-300 text-center"
+        className="bg-[#111827] rounded-3xl p-8 border border-gray-700 hover:border-cyan-400 hover:scale-105 duration-300 text-center shadow-xl"
       >
 
         <img
           src={cert.image}
           alt={cert.title}
-          className="h-40 mx-auto object-contain"
+          className="h-36 mx-auto object-contain"
         />
 
-        <h3 className="text-white text-xl font-semibold mt-6">
+        <h3 className="text-white text-lg font-semibold mt-6">
           {cert.title}
         </h3>
 
@@ -587,16 +621,14 @@ enhance overall DevOps processes.</li>
   </div>
 
   <div className="text-center mt-12">
-
     <a
       href="https://www.credly.com/users/sonu-kumar.555b6ca1"
       target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-3 rounded-full transition duration-300"
+      rel="noreferrer"
+      className="inline-block bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-full text-white font-semibold"
     >
       Verify All Certifications on Credly →
     </a>
-
   </div>
 
 </section>
