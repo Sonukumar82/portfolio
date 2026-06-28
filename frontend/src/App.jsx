@@ -3,8 +3,6 @@ import aws from "./assets/certificates/aws.png";
 import azureFund from "./assets/certificates/azure-fundamentals.png";
 import azureDev from "./assets/certificates/azure-developer.png";
 import gcp from "./assets/certificates/gcp-ace.png";
-import googleOps from "./assets/certificates/google-operations.png";
-import aiFest from "./assets/certificates/ai-skills-fest.png";
 import { useState } from "react";
 import Particles from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
